@@ -1,4 +1,5 @@
 /* Text and Font Style */
 .draw-refund {
-    font-style: italic; 
+    font-style: italic;
+    font-size: smaller; 
 }
