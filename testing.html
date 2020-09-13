@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <title>1 v 1 Game - Dev</title>
+</head>
+
+<body>
+    <section id="game-container">
+        <div id="user-data">
+            <h3>Please enter your name</h3>
+            <label for="first-name">First Name:</label>
+            <input type="text" name="first-name" id="first-name">
+            <label for="last-name">Last Name:</label>
+            <input type="text" name="last-name" id="last-name">
+        </div>
+        <div id="game-options">
+            <h3>Choose an amount to bet</h3>
+            <label for="amount">Amount €:</label>
+            <select name="amount" id="amount">
+                <option value="€10">10</option>
+                <option value="€20">20</option>
+                <option value="€50">50</option>
+            </select>
+            <h3>Make your Prediction</h3>
+            <label for="prediction">Which team do you predict to win?</label>
+            <select name="prediction" id="prediction">
+                <option value="Man United">Man United</option>
+                <option value="Liverpool">Liverpool</option>
+            </select>
+            <p class="draw-refund">Please note: A draw will result in a refund for both players.</p>
+        </div>
+        <div style="margin-top:30px">
+            <button id="start">Challenge Friend!</button>
+        </div>
+    </section>
+</body>
+<script type ="text/javascript" href="script.js"></script>
+</html>
